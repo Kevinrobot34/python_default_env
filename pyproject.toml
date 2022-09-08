@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["Kosaku Ono <kevinrobot34@gmail.com>"]
 readme = "README.md"
-packages = [{include = "python_default_env"}]
 
 [tool.poetry.dependencies]
 python = "~3.9"

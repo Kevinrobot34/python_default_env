@@ -25,7 +25,7 @@ virtualenv/install:
 
 virtualenv/destroy:
 	pyenv local --unset
-	pyenv uninstall -f $(VENV_NAME)
+	pyenv virtualenv-delete -f $(VENV_NAME)
 	pyenv versions
 
 __check_arch_x64__:
