@@ -3,7 +3,7 @@ VENV_NAME       := venv399
 ARCH            := $(shell uname -m)
 
 
-virtualenv/create:
+venv/create:
 	$(eval ret := $(shell pyenv versions | grep $(PYTHON_VER)))
 	@if [ -n "$(ret)" ]; then \
 		echo '$(PYTHON_VER) exists'; \
@@ -20,10 +20,10 @@ virtualenv/create:
 	pyenv versions
 	poetry env info
 
-virtualenv/install:
+venv/install:
 	poetry install
 
-virtualenv/destroy:
+venv/delete:
 	pyenv local --unset
 	pyenv virtualenv-delete -f $(VENV_NAME)
 	pyenv versions
