@@ -2,7 +2,7 @@
 name = "python_default_env"
 version = "0.1.0"
 description = ""
-authors = ["Kosaku Ono <kevinrobot34@gmail.com>"]
+authors = ["Kevinrobot34 <kevinrobot34@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
