@@ -18,7 +18,7 @@ sqlfluff = "^1.4.5"
 scikit-learn = "^1.2.0"
 
 [tool.poetry.group.dev.dependencies]
-black = "^22.8.0"
+black = "^23.0.0"
 ipython = "^8.5.0"
 ipykernel = "^6.15.2"
 jupyter = "^1.0.0"
