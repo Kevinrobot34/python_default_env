@@ -948,14 +948,14 @@ files = [
 
 [[package]]
 name = "fsspec"
-version = "2022.8.2"
+version = "2022.11.0"
 description = "File-system specification"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "fsspec-2022.8.2-py3-none-any.whl", hash = "sha256:6374804a2c0d24f225a67d009ee1eabb4046ad00c793c3f6df97e426c890a1d9"},
-    {file = "fsspec-2022.8.2.tar.gz", hash = "sha256:7f12b90964a98a7e921d27fb36be536ea036b73bf3b724ac0b0bd7b8e39c7c18"},
+    {file = "fsspec-2022.11.0-py3-none-any.whl", hash = "sha256:d6e462003e3dcdcb8c7aa84c73a228f8227e72453cd22570e2363e8844edfe7b"},
+    {file = "fsspec-2022.11.0.tar.gz", hash = "sha256:259d5fd5c8e756ff2ea72f42e7613c32667dc2049a4ac3d84364a7ca034acb8b"},
 ]
 
 [package.extras]
@@ -2980,20 +2980,20 @@ httpx = ["httpx"]
 
 [[package]]
 name = "s3fs"
-version = "2022.8.2"
+version = "2022.11.0"
 description = "Convenient Filesystem interface over S3"
 category = "main"
 optional = false
 python-versions = ">= 3.7"
 files = [
-    {file = "s3fs-2022.8.2-py3-none-any.whl", hash = "sha256:63369eb9b14687080fc5ac72912f51d5c99d58a24d488199c19e664d0f872fd2"},
-    {file = "s3fs-2022.8.2.tar.gz", hash = "sha256:3ca0701a89a9e125a28de90829d19f96f41ddb1d8b4379076c29ed82c4af86cd"},
+    {file = "s3fs-2022.11.0-py3-none-any.whl", hash = "sha256:42d57a3ceedb478b18ee53e34bbe3305a3f07f6381ca1ab76135efe076c6a07d"},
+    {file = "s3fs-2022.11.0.tar.gz", hash = "sha256:10c5ac283a4f5b67ffad6d1f25ff7ee026142750c5c5dc868746cd904f617c33"},
 ]
 
 [package.dependencies]
 aiobotocore = ">=2.4.0,<2.5.0"
 aiohttp = "<4.0.0a0 || >4.0.0a0,<4.0.0a1 || >4.0.0a1"
-fsspec = "2022.8.2"
+fsspec = "2022.11.0"
 
 [package.extras]
 awscli = ["aiobotocore[awscli] (>=2.4.0,<2.5.0)"]
