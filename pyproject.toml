@@ -6,7 +6,7 @@ authors = ["Kevinrobot34 <kevinrobot34@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "~3.9"
+python = "~3.13.0"
 pandas = "^1.4.4"
 matplotlib = "^3.5.3"
 boto3 = "~1.24"
